@@ -1,0 +1,144 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin-bottom: 50px;
+}
+
+.navbar {
+    padding-top: 30px;
+}
+
+.carousel-item {
+    padding: 40px 60px;
+}
+
+.carousel-indicators li{
+    background-color: orange;
+    width: 23px;
+    height: 4px;
+    border: 1px solid orange;
+    border-radius: 3px;
+}
+
+.buy-now-button {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 900;
+    width: 100px;
+}
+
+.card {
+    border: none;
+    background: #fff;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 25px lightgray;
+    border-radius: 10px;
+}
+
+
+/* === Category section starts from here === */
+.category h3 {
+    text-align: center;
+}
+
+.category hr {
+    width: 90px;
+    border: 3px solid orange;
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+.cat-item {
+    box-shadow: 5px 5px 30px lightgray;
+    padding: 20px;
+    margin: 20px 15px;
+    
+}
+
+.cat-content1, .cat-content2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cat-content3 {
+    text-align: center;
+}
+
+.cat-bag {
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+}
+
+.cat-shoes {
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.cat-perfume {
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+}
+/* === Category section ends here === */
+
+
+/* === Subscribe section starts from here === */
+input[type=text], input[type=submit] {
+    width: 70%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border: 5px;
+    border-radius: 4px;
+  }
+
+  input[type=text] {
+      background-color: whitesmoke;
+  }
+
+  .subscribe {
+      text-align: center;
+      background-color: white;
+      box-shadow: 5px 5px 30px lightgray;
+      padding: 30px 0;
+      border-radius: 4px;
+  }
+  /* === Subscribe section ends here === */
+
+
+  /* === Footer section starts from here === */
+footer{
+    
+    color: gray;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    height: 100px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+footer a{
+    color: gray;
+    
+}
+
+.footer-three a {
+    margin-right: 6px;
+    text-decoration: none;
+    
+}
+/* === Footer section ends here === */
